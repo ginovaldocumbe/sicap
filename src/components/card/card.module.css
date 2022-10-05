@@ -9,7 +9,8 @@ form {
   height: 100%;
 }
 .login {
-  font-weight: 100;
+  font-size: larger;
+  font-weight: 100px;
 }
 .welcome {
   margin-bottom: 30px;
