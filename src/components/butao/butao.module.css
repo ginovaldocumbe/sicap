@@ -1,11 +1,10 @@
 .Butao {
     width: fit-content;
 }
-button{
+.btn{
     width: 130px;
-    height: 45px;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: none;
     box-shadow: 4px 3px 15px #bdbdbd;
     color: rgb(206, 206, 206);

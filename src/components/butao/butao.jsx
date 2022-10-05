@@ -5,7 +5,7 @@ import styles from './butao.module.css';
 function Butao(props) {
   return (
     <div className={styles.Butao}>
-      <button>{props.funcao}</button>
+      <button className={styles.btn}>{props.funcao}</button>
     </div>
   );
 }
