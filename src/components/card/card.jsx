@@ -4,7 +4,7 @@ import BtnPrimaria from '../Btn_primaria/Btn_primaria'
 import BtnSecondaria from '../Btn_secundaria/Btn_secundaria'
 import Img from './../../imagens/main.png'
 const Card = () => (
-  <section className='grid grid-flow-col pt-14 overflow-hidden'>
+  <section className='flex items-center md:grid grid-cols-[40%_60%] overflow-hidden w-full h-screen'>
     <div className={styles.Card}>
       <h1 className={styles.login}>Login</h1>
       <span className={styles.welcome}>Bem vindo ao SICAP</span>
@@ -24,7 +24,7 @@ const Card = () => (
         </div>
       </form>
     </div>
-    <div>
+    <div className='hidden md:block bg-blue-200 rounded-tl-full'>
       {/* <div className={styles.custom1}>
         <svg className={styles.custom2} data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className={styles.custom3}></path>
