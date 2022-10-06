@@ -1,7 +1,7 @@
 import React from 'react';
 import Topo from './../../components/top_login/top_login'
 import Baixo from './../../components/baixo/baixo'
-import Butao from '../../components/butao/butao';
+import BtnPrimaria from '../../components/Btn_primaria/Btn_primaria';
 const Registo = () => (
   <div className="h-full pt-24 ">
     <Topo />
@@ -37,7 +37,7 @@ const Registo = () => (
           <input type='password' className=' border-b border-gray-400 outline-none focus:outline-offset-2 focus:border-blue-500  text-sm' />
         </div>
         <div className='flex flex-row items-center justify-center'>
-          <Butao funcao="Registar" />
+          <BtnPrimaria funcao="Registar" />
           <button className='bg-gray-500 ml-8  '>Voltar</button>
         </div>
       </form>

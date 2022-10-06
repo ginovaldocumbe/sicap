@@ -5,7 +5,7 @@ import Detalhes from './pages/detalhes/detalhes';
 function App() {
   return (
     <div className="h-screen">
-      <Detalhes />
+      <Login />
     </div>
   );
 }
