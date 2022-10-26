@@ -33,9 +33,7 @@ const Detalhes = () => (
           <label className='text-justify '>Lorem ipsum dolor sit amet consectetur,
             adipisicing elit. Aut molestiae aliquid veritatis,
             tempora labore eligendi repudiandae, ipsum, voluptate
-            iure voluptates rerum non minus error.
-            At assumenda laudantium esse excepturi dolorum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse mollitia sapiente quaerat repellat ex, aspernatur temporibus! Amet ab voluptate repudiandae quasi enim inventore ad, aliquid iusto doloremque reprehenderit at.</label>
+           </label>
         </div>
         <div className='h-px my-2 bg-gradient-to-r from-sky-600 via-black to-sky-600'></div>
         <div>

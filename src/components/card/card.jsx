@@ -3,6 +3,7 @@ import styles from './card.module.css';
 import BtnPrimaria from '../Btn_primaria/Btn_primaria'
 import BtnSecondaria from '../Btn_secundaria/Btn_secundaria'
 import Img from './../../imagens/main.png'
+import { Link } from 'react-router-dom'
 const Card = () => (
   <section className='flex items-center md:grid grid-cols-[40%_60%] overflow-hidden w-full h-screen'>
     <div className={styles.Card}>
@@ -19,8 +20,8 @@ const Card = () => (
         </div>
         <a className={styles.esqueci}>Esqueceu a senha?</a> <br />
         <div className='flex flex-col items-center justify-center'>
-          <BtnPrimaria funcao='Entrar'></BtnPrimaria>
-          <BtnSecondaria funcao='Nova Conta' />
+          <Link to='/meus_detalhes'><BtnPrimaria funcao='Entrar'></BtnPrimaria></Link>
+          <Link to='/registo'><BtnSecondaria funcao='Nova Conta' /></Link>
         </div>
       </form>
     </div>
