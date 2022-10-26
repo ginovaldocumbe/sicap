@@ -10,6 +10,10 @@ body {
   display: block;
   font-family: "Merriweather", serif;
 }
+.active{
+  background-color: #075985;
+  color: white;
+}
 /*
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
